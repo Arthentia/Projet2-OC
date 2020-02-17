@@ -1,0 +1,65 @@
+.page{
+    width:780px;
+    margin:auto;
+    font-size:16px;
+    font-family: arial;
+
+}
+
+.infophoto{
+    height: 250px;
+}
+
+.info{
+    float:left;
+    line-height: 1;
+    border: 3px black solid;
+    text-align: center;
+    
+    
+}
+
+.photo{
+    float:right;
+  
+}
+
+.section{
+    margin-bottom: 70px;
+    margin-top:50px;
+    text-align: justify;
+    
+
+}
+
+
+
+h1,h2{
+    text-align: center;
+}
+
+h3{
+        color:#A52A2A;
+        border-bottom: 3px solid #A52A2A;
+        
+}
+
+.droite{
+    margin-left:400px;
+  
+  
+}
+
+.competence{
+    display:flex;
+    align-content: center;
+    line-height: 2em;
+    
+}
+
+.description{
+    text-align: center;
+    font-size: 25px;
+    margin-top: -40px;
+   
+}
