@@ -3,7 +3,8 @@
     margin:auto;
     font-size:16px;
     font-family: arial;
-
+    
+ 
 }
 
 .infophoto{
@@ -50,7 +51,7 @@ h3{
   
 }
 
-.competence{
+.competence,interets{
     display:flex;
     align-content: center;
     line-height: 2em;
@@ -62,4 +63,12 @@ h3{
     font-size: 25px;
     margin-top: -40px;
    
+}
+.logo{
+    float:left;
+    margin-right:10px;
+}
+
+.logo2{
+    float:right;
 }
