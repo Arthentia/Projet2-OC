@@ -1,0 +1,193 @@
+html {
+    height: 100%;
+
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    width: 800px;
+    margin: auto;
+    font-size: 16px;
+    font-family: arial;
+
+}
+
+
+.contact>p {
+    margin-left: 10%;
+
+}
+
+.a_propos>p {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20%;
+}
+
+h1,
+h2 {
+    text-align: left;
+
+}
+
+h1 {
+    color: #CF2E0C;
+    margin-bottom: -20px;
+}
+
+h2 {
+    margin-bottom: -2px;
+}
+
+.GD {
+    border-bottom: 2px solid #CF2E0C;
+    width: 50px;
+}
+
+
+
+h3 {
+    text-align: center;
+    background: black;
+    color: #CF2E0C;
+}
+
+h4 {
+    text-align: left;
+
+}
+
+#info_center {
+    order: 2;
+    width: 300px;
+    text-align: justify;
+    /*! height: 100%; */
+    padding-top: 150px;
+    background: #CF2E0C;
+
+}
+
+#cv_center {
+    order: 2;
+    width: 600px;
+    margin-left: 30px;
+
+}
+
+.imgpro {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.imgpro>img {
+    border-radius: 500px;
+
+}
+
+.date {}
+
+
+
+.pac_dip {
+    margin: 5px;
+    padding: 10px
+}
+
+.informations_diplome {
+    margin-top: 5px;
+    width: 50%;
+    margin-right: 10.1%;
+    margin-left: 50%
+}
+
+.reco_section {
+    display: flex;
+
+}
+
+.reco2 {
+    margin-left: 10%;
+    width: 50%;
+
+}
+
+.reco1 {
+    width: 50%;
+}
+
+.imageid {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    z-index: 2;
+    margin-top: -150px;
+    margin-left: 20%;
+}
+
+
+.imagecrop {
+    display: inline;
+    margin: 0 auto;
+    margin-left: -5%;
+    width: auto;
+}
+
+.experience {
+    /*! display: flex; */
+}
+
+.experience_title {
+    display: flex;
+    height: 100%;
+    padding-top: 22px;
+
+}
+
+.experience_title>img {
+    height: 100%;
+    margin-top: 4%;
+    margin-right: 2%;
+}
+
+.reco_title {
+    display: flex;
+    height: 100%;
+    padding-top: 22px;
+}
+
+.reco_title>img {
+    height: 100%;
+    margin-top: 4%;
+    margin-right: 2%;
+}
+
+.box_title {
+    width: 100%
+}
+
+.barre {
+    margin-top: -15px;
+    border-bottom: 2px solid #CF2E0C;
+    margin-left: -6.8%;
+}
+
+.dot{
+    display:flex;
+    margin-left:-5%;
+    
+}
+.dot > img{
+    height:100%;
+    padding-top:5px;
+    padding-right: 5px;
+}
