@@ -1,14 +1,15 @@
 html {
     height: 100%;
-
+    
+    
 }
 
 body {
     height: 100%;
     margin: 0;
     padding: 0;
-
-
+    
+;
 }
 
 .container {
@@ -16,8 +17,9 @@ body {
     height: 100%;
     width: 800px;
     margin: auto;
-    font-size: 16px;
+    font-size: 14px;
     font-family: arial;
+    font-family:Verdana;
 
 }
 
@@ -26,6 +28,9 @@ body {
     margin-left: 10%;
 
 }
+
+
+
 
 .a_propos>p {
     margin-left: 10%;
@@ -253,6 +258,12 @@ h4 {
     margin-left: 50px;
 }
 
+.logo2{
+    padding-top: 10px;
+    margin-right: 10px;
+   color: #CF2E0C;
+}
+
 .date > p{
     margin-top: 0px;
 }
@@ -272,16 +283,24 @@ h4 {
 }
 .logo1{
     font-size: 20px;
+    
 }
+
+.logo2{
+    margin-top: 10px;
+}
+
 .dot1{
     font-size: 12px;
     margin-right: 4px;
     margin-top: 1px;
+    color: #CF2E0C;
 }
 .dot2{
     font-size: 8px;
-     margin-right: 4px;
+    margin-right: 4px;
     margin-top: 4px;
+    color: #CF2E0C;
 }
 
 
@@ -290,5 +309,8 @@ h4 {
     .container {
         flex-direction: column;
     }
-
+  
 }
+
+
+
