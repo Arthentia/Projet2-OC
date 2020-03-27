@@ -31,6 +31,7 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 20%;
+    min-height: 300px;
 }
 
 .prenom{
@@ -63,6 +64,7 @@ h3 {
     text-align: center;
     background: black;
     color: #CF2E0C;
+    text-transform: uppercase;
 }
 
 h4 {
@@ -77,6 +79,7 @@ h4 {
     /*! height: 100%; */
     padding-top: 150px;
     background: #CF2E0C;
+
 
 }
 
@@ -103,14 +106,21 @@ h4 {
 
 .pac_dip {
     margin: 5px;
-    padding: 10px
+    padding: 10px;
+    display:flex;
+
 }
 
+
+
 .informations_diplome {
-    margin-top: 5px;
+    margin-top: 0px;
     width: 50%;
-    margin-right: 10.1%;
-    margin-left: 50%
+    margin-left: 20%;
+
+}
+.informations_diplome > p{
+    margin-top:0px;
 }
 
 .reco_section {
@@ -147,6 +157,7 @@ h4 {
 }
 
 .experience {
+    margin-bottom: -20px;
     /*! display: flex; */
 }
 
@@ -176,7 +187,7 @@ h4 {
 }
 
 .box_title {
-    width: 100%
+    width: 100%;
 }
 
 .barre {
@@ -194,4 +205,90 @@ h4 {
     height:100%;
     padding-top:5px;
     padding-right: 5px;
+}
+.informations_diplome > h5{
+    text-transform: uppercase;
+    margin-top: 0px
+}
+
+
+.pac_dip{
+    display: flex
+}
+.pac_dip >.dot
+{
+    width: 50%
+}
+.dot >i
+{
+    margin-right: 5%
+}
+.dot>.date{
+    width: 100%
+}
+.informations_diplome
+{
+    margin-top: 0;
+    margin-left: -20px;
+}
+.informations_diplome >p{
+    margin-top: 0px;
+    font-size: 12px;
+}
+
+.logo{
+    display:flex;
+}
+
+.informations_diplome >h5{
+    margin: 0;    
+    margin-bottom: 10px;
+}
+.informations_diplome >h5 > p{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.logo1{
+    margin-left: 50px;
+}
+
+.date > p{
+    margin-top: 0px;
+}
+.reco_section{
+    font-size:12px;
+}
+.reco2 > .tel{
+    margin-top: -8px;
+}
+
+.reco1 > .tel{
+    margin-top: -8px;
+}
+
+.footer{
+    margin-top: -50px;
+}
+.logo1{
+    font-size: 20px;
+}
+.dot1{
+    font-size: 12px;
+    margin-right: 4px;
+    margin-top: 1px;
+}
+.dot2{
+    font-size: 8px;
+     margin-right: 4px;
+    margin-top: 4px;
+}
+
+
+@media screen and (max-width: 800px)
+{
+    .container {
+        flex-direction: column;
+    }
+
 }
