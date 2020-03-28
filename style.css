@@ -1,7 +1,6 @@
 html {
     height: 100%;
-    
-    
+
 }
 
 body {
@@ -317,9 +316,7 @@ h4 {
     /*! height: 100%; */
     padding-top: 150px;
     background: #CF2E0C;
-    display: flex;    
-    
-
+      
     }
 
     .figure{
@@ -346,12 +343,29 @@ h4 {
         display: flex;
         max-width: 800px;
     }
+    
+    .contact,
+    .a_propos,
+    .loisirs
+    {
+        width: 50%;
+    }
 }
 @media screen and (max-width: 600px)
 {
     
+    .contact,
+    .a_propos,
+    .loisirs
+    {
+        width: 100%;
+    }
+    #info_center{
+        display: flex;
+      
+    }    
     .container{
-
+        width: 100%;
     }
     .info_txt{
         flex-direction: column;
