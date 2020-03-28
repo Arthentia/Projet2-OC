@@ -23,13 +23,21 @@ body {
 }
 
 
-.contact>p {
+.contact > ul > li{
+    margin-top: 7px;
     text-align: left;
-    margin-left: 10%;
-
+    margin-left: -15px;
 }
 
+ul{
+    list-style:none;
+}
 
+.loisirs >ul > li
+{
+    list-style: none;
+    margin-left: -5px;
+}
 
 
 .a_propos>p {
@@ -131,6 +139,7 @@ aside {
 
 .reco_section {
     display: flex;
+    margin-left:-7%;
 
 }
 
@@ -256,7 +265,7 @@ aside {
 }
 
 .logo1{
-   margin: auto;
+    margin: auto;
     font-size: 20px;
     border: 1px solid black;
     padding: 5px;
@@ -401,10 +410,10 @@ aside {
     .container{
         width: 500px;
     }
-    
-  
    
-    
+    .reco_section{
+        margin-left: -50px;
+    }
 
  
 }
