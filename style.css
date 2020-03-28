@@ -25,6 +25,7 @@ body {
 
 
 .contact>p {
+    text-align: left;
     margin-left: 10%;
 
 }
@@ -33,6 +34,7 @@ body {
 
 
 .a_propos>p {
+    
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 20%;
@@ -79,7 +81,7 @@ h4 {
 
 #info_center {
     order: 2;
-    width: 300px;
+    width: 30%;
     text-align: justify;
     /*! height: 100%; */
     padding-top: 150px;
@@ -90,7 +92,7 @@ h4 {
 
 #cv_center {
     order: 2;
-    width: 600px;
+    width: 70%;
     margin-left: 30px;
 
 }
@@ -102,9 +104,9 @@ h4 {
 
 .imgpro>img {
     border-radius: 600px;
+    
 
 }
-
 
 
 
@@ -255,13 +257,15 @@ h4 {
 }
 
 .logo1{
-    margin-left: 50px;
+   margin: auto;
+    font-size: 20px;
 }
 
 .logo2{
     padding-top: 10px;
     margin-right: 10px;
-   color: #CF2E0C;
+    color: #CF2E0C;
+    margin-top: 10px;
 }
 
 .date > p{
@@ -281,14 +285,9 @@ h4 {
 .footer{
     margin-top: -50px;
 }
-.logo1{
-    font-size: 20px;
-    
-}
 
-.logo2{
-    margin-top: 10px;
-}
+
+
 
 .dot1{
     font-size: 12px;
@@ -308,9 +307,80 @@ h4 {
 {
     .container {
         flex-direction: column;
+
     }
-  
+    #info_center {
+    order: 2;
+    width: 100%;
+    text-align: justify;
+    text-align: center;
+    /*! height: 100%; */
+    padding-top: 150px;
+    background: #CF2E0C;
+    display: flex;    
+    
+
+    }
+
+    .figure{
+        height:25%;
+        width:100%;
+        margin-top:-100px;
+    
+    }
+    .imageid{
+        margin:auto;
+        position:absolute;
+        right:40%;
+        left:auto;
+        margin-top:-150px;
+    }
+    #cv_center{
+        margin: auto;
+    }
+    .a_propos{
+        min-height: auto;
+        max-width: 40%;
+    }
+    .info_txt{
+        display: flex;
+     
+        max-width: 800px;
+    }
 }
+@media screen and (max-width: 600px)
+{
+    
+    .container{
+       
+    }
+    .info_txt{
+        flex-direction: column;
+        max-width: 300px
 
-
+    }
+    
+    .contact{
+        max-width: 600px;
+    
+    }
+    .a_propos{
+        max-width: 600px;
+        min-height: auto;
+        max-height: 40%;
+    }
+    .loisirs{
+        max-width: 600px;
+    }
+     #cv_center{
+        margin-left:15px;
+    }
+    .informations_diplome{
+        max-width:260px;
+    }
+    .reco2{
+        margin-left: -40px;
+    }
+    
+}
 
