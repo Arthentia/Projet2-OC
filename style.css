@@ -353,7 +353,7 @@ aside {
 }
 @media screen and (max-width: 600px)
 {
-    
+   
     .contact,
     .a_propos,
     .loisirs
@@ -395,7 +395,6 @@ aside {
      {
         width:400px;
     }
-  
-
+ 
 }
 
