@@ -344,7 +344,6 @@ h4 {
     }
     .info_txt{
         display: flex;
-     
         max-width: 800px;
     }
 }
@@ -352,11 +351,11 @@ h4 {
 {
     
     .container{
-       
+
     }
     .info_txt{
         flex-direction: column;
-        max-width: 300px
+        max-width: 300px;
 
     }
     
@@ -381,6 +380,9 @@ h4 {
     .reco2{
         margin-left: -40px;
     }
-    
+     .pac_dip{
+        width:500px
+    }
+
 }
 
