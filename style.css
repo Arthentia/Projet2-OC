@@ -363,7 +363,7 @@ aside {
     }
     aside{
         display: flex;
-        width:600px;
+        width:100%;
       
     }    
     .container{
@@ -375,18 +375,13 @@ aside {
 
     }
     
-    .contact{
-        max-width: 600px;
-    
-    }
+
     .a_propos{
-        max-width: 600px;
+        max-width: 100%;
         min-height: auto;
         max-height: 40%;
     }
-    .loisirs{
-        max-width: 600px;
-    }
+
      #cv_center{
         margin:auto;
     }
