@@ -78,7 +78,7 @@ h4 {
 
 }
 
-#info_center {
+aside {
     order: 2;
     width: 30%;
     text-align: justify;
@@ -308,7 +308,7 @@ h4 {
         flex-direction: column;
 
     }
-    #info_center {
+    aside {
     order: 2;
     width: 100%;
     text-align: justify;
@@ -360,7 +360,7 @@ h4 {
     {
         width: 100%;
     }
-    #info_center{
+    aside{
         display: flex;
       
     }    
@@ -386,17 +386,16 @@ h4 {
         max-width: 600px;
     }
      #cv_center{
-        margin-left:15px;
+        margin:auto;
     }
     .informations_diplome{
         max-width:260px;
     }
-    .reco2{
-        margin-left: -40px;
+   .pac_dip
+     {
+        width:400px;
     }
-     .pac_dip{
-        width:500px
-    }
+  
 
 }
 
