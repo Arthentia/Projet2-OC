@@ -363,7 +363,7 @@ aside {
     }
     aside{
         display: flex;
-        width:100%;
+        width:600px;
       
     }    
     .container{
