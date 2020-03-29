@@ -236,10 +236,10 @@ aside {
 }
 .dot >i
 {
-    margin-right: 5%
+    margin-right: 5%;
 }
 .dot>.date{
-    width: 100%
+    width: 100%;
 }
 .informations_diplome
 {
@@ -312,6 +312,9 @@ aside {
     margin-top: 4px;
     color: #CF2E0C;
 }
+aside{
+    height: auto;
+}
 
 
 @media screen and (max-width: 800px)
@@ -339,7 +342,6 @@ aside {
     }
     .imageid{
         margin:auto;
-        position:absolute;
         right:40%;
         left:auto;
         margin-top:-150px;
@@ -362,6 +364,34 @@ aside {
     {
         width: 50%;
     }
+  
+    
+    .pac_dip{
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+    }
+    .pac_dip > .dot{
+        
+        margin:auto;
+    }
+    .pac_dip > .informations_diplome{
+        margin: auto;
+    }
+    
+     .date{
+        margin-left: -15px;
+        
+    }
+    .dot1{
+        margin-right: -75px;
+        margin-left: auto
+    }
+    .dot2{
+          margin-right: -75px;
+        margin-left:auto
+    }
+
 
 }
 @media screen and (max-width: 600px)
@@ -404,17 +434,38 @@ aside {
      {
         width:400px;
     }
+    .imagetexte{
+            margin: auto;
+    }
+    
+    .dot1{
+        margin-right: -40px;
+        margin-left: 
+    }
+    .dot2{
+          margin-right: -40px;
+        margin-left: auto;
+    }
  
 }
 @media screen and (max-width: 500px){
     .container{
         width: 500px;
+        margin: auto;
     }
    
     .reco_section{
         margin-left: -50px;
     }
+    .imagetexte{
+        margin: auto;
+    }
 
- 
+    main{
+        margin-left:-40px;
+    }
+
 }
+
+
 
